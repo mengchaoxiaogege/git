@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+    color: #333;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: .01rem;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(190deg,
+    #ff9816 0%,
+    #ff6700 100%);
+    overflow: hidden;
+
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    padding-top: .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p.one{
+    width: 5rem;
+    height: .6rem;
+    /*background: #d400ac;*/
+
+    font-size: .4rem;
+    color: #ffffff;
+}
+p.two{
+    width: 1.1rem;
+    height: .68rem;
+    /*background: #761c19;*/
+    font-size: .36rem;
+    color: #ffffff;
+    margin-top: .3rem;
+}
+p.num3{
+    width: 2.1rem;
+    height: .5rem;
+    font-size: .26rem;
+    color: #ffffff;
+    /*opacity: 0.41;*/
+    /*background: #d400ac;*/
+}
+p.num4{
+    width: 2.4rem;
+    height: .36rem;
+    /*background: yellow;*/
+    font-size: .26rem;
+    color: #ffffff;
+}
+.topBar img{
+    display: block;
+    width: 7.2rem;
+    height: 7.2rem;
+
+}
+div.anniu{
+    width: 5.67rem;
+    height: .89rem;
+    /*background: #2fff23;*/
+    margin-top: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+div.an1,div.an2{
+    width: 2.38rem;
+    height: .89rem;
+    background-image: linear-gradient(90deg,
+    rgba(255, 94, 5, 0.47) 0%,
+    #f45b17 100%),
+    linear-gradient(0deg,
+            #e50a84 0%,
+            #e5a66e 100%);
+    font-size: .3rem;
+    color: #f7f2f2;
+    border-radius: .45rem;
+    text-align: center;
+    line-height: .89rem;
+}

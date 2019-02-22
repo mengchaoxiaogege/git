@@ -1,0 +1,208 @@
+a {
+    text-decoration: none;
+    color: #333;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: .01rem;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 1.4rem;
+    background-image: linear-gradient(190deg,
+    #ff9816 0%,
+    #ff6700 100%);
+
+}
+.topBar{
+    width: 100%;
+    height: .6rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jiantou{
+    color:rgba(255,255,255,.8);
+    font-family: iconfont;
+    font-size: .2rem;
+    margin-right: .2rem;
+}
+p.fs{
+    font-size: .4rem;
+    color: #fffdff;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 1.4rem);
+    /*background: blue;*/
+}
+.xz{
+    width: 100%;
+    height: 100%;
+    /*background: #16b0bc;*/
+}
+.xz3{
+
+    width: 100%;
+    height: auto;
+    /*background: #333333;*/
+    margin-top: .4rem;
+    padding: 0 .02rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xz3:after{
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+
+}
+.xz3 .input-1{
+    float: left;
+    width: 16%;
+    height: 1rem;
+    /*background: #F1F1F1;*/
+    border: 1px solid black;
+
+}
+.xz3 .input-1 .point{
+
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    background: #b0b0b0;
+    margin: .35rem auto;
+
+}
+.xz3 .input-1 p{
+    text-align: center;
+    line-height: .9rem;
+}
+.xz3 .input-1 .line,.xz3 .input-1 .line2{
+    width: 60%;
+    height: .1rem;
+    background: #b0b0b0;
+    border-radius: .15rem;
+    margin: 0 auto;
+}
+.xz3 .input-1 .line2{
+    margin-top: .85rem;
+}
+.xz3 .input-1 input{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /*background: #5cb85c;*/
+    outline: none;
+    border: none;
+}
+
+.xz1{
+
+    width: 100%;
+    height: 1rem;
+    /*background: #761c19;*/
+    padding-top: .5rem;
+    margin-bottom: .6rem;
+}
+.xz1 img{
+    display: inline-block;
+    width: .34rem;
+    height: .12rem;
+
+}
+.xz1 p{
+    display: inline-block;
+    font-size: .24rem;
+    color: #030303;
+    margin-right: 1.05rem;
+}
+.xz2{
+    width: 100%;
+    height: 3.56rem;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.xz2 img{
+    width: 5.49rem;
+    height: 3rem;
+    background: yellow;
+    border-radius: .25rem;
+    margin: 0 auto;
+}
+
+.xz2 .tip{
+    position: absolute;
+    width: 5.49rem;
+    height: 1.6rem;
+    background: #F1F1F1;
+    opacity: .6;
+    left: 0;
+    bottom: -.3rem;
+    margin-left: .78rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.xz2 .tip p{
+    display: inline-block;
+    font-size: .26rem;
+}
+.xz2 .tip img{
+    display: inline-block;
+    width: .15rem;
+    height: .15rem;
+}
+.xz4{
+    /*float: left;*/
+    width: 100%;
+    height: 4rem;
+    background: #b0b0b0;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.xz4 .number1{
+    display: inline-block;
+    width: 30%;
+    height: .8rem;
+    background: #F1F1F1;
+    border-radius: .15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.xz4 .number1:hover{
+    cursor: pointer;
+}
+div.xz4 .number1 .n1{
+
+    width: 100%;
+    height: 50%;
+    /*background: #ff6700;*/
+    text-align: center;
+    font-size: .44rem;
+}
+div.xz4 .number1 .n2{
+    font-size: .2rem;
+    width: 100%;
+    height: 30%;
+    /*background: #5cb85c;*/
+    text-align: center;
+
+}
